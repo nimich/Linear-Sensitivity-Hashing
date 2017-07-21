@@ -1,4 +1,4 @@
-# Linear-Sensitivity-Hashing-
+# Linear Sensitivity Hashing
 
 To compare a corpus of texts to find the most similar we could try many approaches; one is to create k-shinles from the words, hash them to numbers and compare directly these sets of shingles to calculate Jaccard similarity (https://en.wikipedia.org/wiki/Jaccard_index). Another approach, usually when we deal big datasets, is to use linear sensitivity hashing (LSH) and try to find documents that hash in the same value and consider them similar. 
 
